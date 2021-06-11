@@ -68,7 +68,9 @@
               ]
             },
             "en": {
-              "localize": ["en"]
+              "localize": [
+                "en"
+              ]
             }
           }
         },
@@ -138,5 +140,8 @@
       }
     }
   },
-  "defaultProject": "book-monkey"
+  "defaultProject": "book-monkey",
+  "cli": {
+    "defaultCollection": "@ngrx/schematics"
+  }
 }
